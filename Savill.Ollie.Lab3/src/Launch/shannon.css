@@ -1,0 +1,49 @@
+
+/* 
+    Created on : Apr 13, 2023, 7:48:14 p.m.
+    Author     : Ollie Savill
+*/
+/**
+ * File name: shannon.css
+ * Package: Launch
+ * Student Name: Ollie Savill
+ * Student Number: 041079682
+ * Course & Section #: 22S_CST8288_011
+ * Date: April, 2023
+ * Declaration:
+ * This is my own original work and is free from Plagiarism.
+ *
+ * The css styling class  to style the GUI elements
+ */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-base: #b6e7c9;
+}
+
+.grid-pane {
+    -fx-background-color: linear-gradient(to top, #89f7fe, #66a6ff);
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field {
+    -fx-pref-width: 150;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to top, #667db6, #0082c8);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to top, #0072bc, #0082c8);
+}
