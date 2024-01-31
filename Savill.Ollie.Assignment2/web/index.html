@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+ - File name: index.html
+ - Student Name: Ollie Savill
+ - Student Number: 041079682
+ - Course & Section #: 22S_CST8288_011
+ - Date: April, 2023
+ - Declaration:
+ - This is my own original work and is free from Plagiarism.
+-->
+<html lang="en">
+    <head>
+        <title>Tutor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tutor.css"/>
+    </head>
+    <body>
+        <header>
+            <!--The RickRoll -->
+            <nav>                
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">See more details</a>
+                <a href="TutorsSummaryView-URL">See Tutors using Servlet</a>                
+            </nav>
+        </header>
+        <main>
+            <h1>
+                Register to become a tutor!
+            </h1>
+            <!-- A form that gets the User ID, password, first name, last name, and course code. Used with a servlet for validation. -->
+            <form action="http://localhost:8080/Savill.Ollie.Assignment2/TutorsSummaryView-URL" method="post">
+                <div class="details">
+                    <label for="username">User ID:</label><br>
+                    <input type="text" name="username" id="username" placeholder="UserId">
+                </div>
+                <div class="details">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="details">
+                    <label for="firstName">First Name:</label><br>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                </div>
+                <div class="details">
+                    <label for="lastName">Last Name:</label><br>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+                <div class ="details">
+                    <label for="course">Course Code:</label><br>
+                    <input type="text" name="course" id="course" placeholder="Course code">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>Author: Ollie Savill</p>
+            <p>Date completed: April 6th, 2023</p>
+        </footer>
+    </body>
+</html>
